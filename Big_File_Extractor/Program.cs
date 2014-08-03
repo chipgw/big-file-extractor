@@ -47,7 +47,7 @@ namespace Big_File_Extractor
         {
             Console.WriteLine("------------------------------------------------------------------------------");
             Console.WriteLine("BIG FILE EXTRACTOR v{0}", applicationfileversion);
-            Console.WriteLine("DRay Software 2010");
+            Console.WriteLine("chipgw 2010");
             Console.WriteLine("------------------------------------------------------------------------------");
             Console.WriteLine();
             if (args.Length > 0)
@@ -130,7 +130,7 @@ namespace Big_File_Extractor
 
                             string outFile = outFolder + currentfile.fileName;
 
-#region Directory Creation
+                            #region Directory Creation
                             while (outFile.IndexOf('\\') > 0 || outFile.IndexOf('/') > 0)
                             {
                                 char SlashType = '\\';
@@ -180,7 +180,7 @@ namespace Big_File_Extractor
                                 outFile = outFile.Remove(outFile.IndexOf(SlashType), 1);
                             }
                             outFile = outFile.Replace("<insertslashhere>", "\\");
-#endregion
+                            #endregion
                             if (File.Exists(outFile))
                             {
                                 bool done = false;
