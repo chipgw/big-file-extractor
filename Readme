@@ -1,4 +1,6 @@
-this is a basic extractor for SAGE engine (the Battle for Middle Earth and Command & Conquer series) .BIG files that I made a couple years back. 
-it was written in C# using Visual Studio 2010.
+This is a basic extractor for SAGE engine (the Battle for Middle Earth and Command & Conquer series) .BIG files that I made a couple years back.
+It was written in C# using Visual Studio 2010.
 
-this is just some old code I thought I would upload in case someone had a use for it, I honestly don't give a darn what you do with it.
+This is just some old code I thought I would upload in case someone had a use for it, I honestly don't give a darn what you do with it.
+
+Note: this functionality is included in OpenBFME project, at github.com/chipgw/openbfme
